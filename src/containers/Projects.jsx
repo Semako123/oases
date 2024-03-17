@@ -18,7 +18,7 @@ const projectList = [
       "Growfy is a landing page developed for a marketing solutions company. It features animations, responsiveness, awesome layout as well as highly optimized images",
     img: growfy,
     code: "https://github.com/Semako123/growfy",
-    live: "https://github.com/semako123/growfy",
+    live: "https://oasesgrowfy.netlify.app",
     stack: ["React", "CSS", "JavaScript"],
   },
   {
