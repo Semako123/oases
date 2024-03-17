@@ -28,24 +28,24 @@ const About = () => {
 
   return (
     <section className="mt-10 mb-28">
-      <div className="text-justify">
-        <div className="flex items-center gap-x-10 mb-16">
-          <div>
-            <img src={reactimg} alt="" />
+      <div className="md:text-justify text-left">
+        <div className="flex items-center gap-x-10 mb-16 md:flex-nowrap flex-wrap">
+          <div className="mb-6 md:mb-0 flex justify-center">
+            <img src={reactimg} alt="" className="md:w-full w-[90%]" />
           </div>
-          <h3 className="tracking-tight text-6xl">
+          <h3 className="md:tracking-tight md:text-6xl text-5xl">
             Hi, I'm Zosu Semako Enoch. The Efficient Software Developer
           </h3>
         </div>
 
-        <p className="text-3xl text-zinc-600 mb-12">
+        <p className="text-2xl md:text-3xl text-zinc-600 mb-12">
           Are you ready to elevate your digital presence to new heights? Look no
           further. I'm Semako, a dedicated software developer with an insatiable
           passion for web development, I specialize in crafting responsive,
           interactive, and user-friendly interfaces that leave a lasting
           impression.
         </p>
-        <p className="text-3xl text-zinc-600">
+        <p className="text-2xl md:text-3xl text-zinc-600">
           But here's the kicker: I'm not just about sleek designs and
           cutting-edge technology. I'm driven by a deep-seated desire to create
           software that sparks change and drives efficiency. Time is precious,
@@ -56,8 +56,8 @@ const About = () => {
         </p>
       </div>
       <div className="py-20 border-b-zinc-800 border-2">
-        <div className="flex gap-x-20">
-          <p className="font-medium border-b-zinc-600 border-2 h-min">
+        <div className="flex gap-x-20 md:flex-nowrap flex-wrap">
+          <p className="font-medium border-b-zinc-600 border-2 h-min mb-10">
             Main Technology Stack
           </p>
           <div className="flex flex-wrap gap-4">
@@ -69,7 +69,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between my-10">
+      <div className="flex justify-between my-10 md:flex-nowrap flex-wrap">
         <div className="w-[400px]">
           <p className="tracking-tight text-3xl inline">
             I am thrilled to answer to your next project
@@ -78,7 +78,9 @@ const About = () => {
         </div>
 
         <div>
-          <p className="tracking-tight text-3xl mb-8">zosusemenoch@gmail.com</p>
+          <p className="tracking-tight text-2xl md:text-3xl mb-8 md:mt-0 mt-10">
+            zosusemenoch@gmail.com
+          </p>
           <Alink
             href="https://drive.google.com/file/d/1xjZ8CJVmZrp0Ak2TtSjJ7F8AJLluNvHB/view?usp=sharing"
             target="_blank"

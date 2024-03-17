@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <section className="flex pt-32 justify-between mb-20">
+    <section className="flex pt-32 justify-between mb-20  flex-wrap md:flex-nowrap">
       <div className="font-medium">
         <h3 className="text-6xl max-w-[400px]">Hello, I'm Zosu Semako.</h3>
       </div>

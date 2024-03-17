@@ -3,8 +3,8 @@ import { Alink } from ".";
 
 const Footer = () => {
   return (
-    <div className="mb-20 font-semibold flex justify-between" id="contact">
-      <h2 className="text-2xl tracking-tight text-cyan-900">
+    <div className="mb-20 font-semibold md:flex justify-between" id="contact">
+      <h2 className="text-2xl tracking-tight text-cyan-900 mb-8 md:mb-0">
         Zosu Semako &mdash; 2024
       </h2>
       <ul className="flex gap-x-8">
