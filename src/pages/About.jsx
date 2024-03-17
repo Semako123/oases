@@ -82,7 +82,7 @@ const About = () => {
             zosusemenoch@gmail.com
           </p>
           <Alink
-            href="https://drive.google.com/file/d/1xjZ8CJVmZrp0Ak2TtSjJ7F8AJLluNvHB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1goWBeBy2upKP1F41tIa6rHfueZ4d7zS4/view?usp=sharing"
             target="_blank"
             className="font-medium tracking-tight"
           >
