@@ -33,11 +33,18 @@ const projectList = [
   {
     title: "Google Docs Clone",
     desciption:
-      "A marketplace to trade and explore NFT's. The entire NFT ecosystem at the tip of your fingers.",
+      "A Google Docs clone with the following features: Real-time Collaboratio, Cursor Tracking, Document Management",
     img: docs,
     code: "https://github.com/semako123/google-doc-clone",
     live: "https://google-doc-clone-smoky.vercel.app/",
-    stack: ["React", "JavaScript", "TailwindCSS", "Socket IO", "Quill js"],
+    stack: [
+      "React",
+      "JavaScript",
+      "TailwindCSS",
+      "Socket IO",
+      "Quill js",
+      "Mongo DB",
+    ],
   },
   {
     title: "GROWFY",
