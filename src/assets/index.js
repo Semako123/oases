@@ -16,3 +16,5 @@ export { default as redux } from "./redux.png";
 export { default as next } from "./next.svg";
 export { default as tail } from "./tail.png";
 export { default as ts } from "./ts.png";
+export { default as cryptopunks } from "./cryptopunks.png";
+export { default as docs } from "./docs.png";

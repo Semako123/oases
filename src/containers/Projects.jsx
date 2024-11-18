@@ -1,8 +1,17 @@
 import React from "react";
 import { Project } from "../components";
-import { gpt3, growfy, nft, odash, ofood, todo } from "../assets";
+import { gpt3, growfy, nft, odash, ofood, todo, cryptopunks } from "../assets";
 
 const projectList = [
+  {
+    title: "CryptoPunks",
+    desciption:
+      "CryptoPunks are a collection of 10,000 unique, algorithmically generated pixel art characters that have become a key part of the CryptoArt movement.",
+    img: cryptopunks,
+    code: "https://github.com/Semako123/nft-landing2",
+    live: "https://cryptopunks-oases.vercel.app/",
+    stack: ["React", "JavaScript", "TailwindCSS", "Open Sea API"],
+  },
   {
     title: "NFT MARKETPLACE",
     desciption:
@@ -10,6 +19,15 @@ const projectList = [
     img: nft,
     code: "https://github.com/Semako123/nft",
     live: "https://nftmarket-flax.vercel.app/",
+    stack: ["React", "JavaScript", "TailwindCSS", "Framer Motion"],
+  },
+  {
+    title: "Google Docs Clone",
+    desciption:
+      "A marketplace to trade and explore NFT's. The entire NFT ecosystem at the tip of your fingers.",
+    img: nft,
+    code: "https://github.com/semako123/google-doc-clone",
+    live: "https://google-doc-clone-smoky.vercel.app/",
     stack: ["React", "JavaScript", "TailwindCSS", "Framer Motion"],
   },
   {
