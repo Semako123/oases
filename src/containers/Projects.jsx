@@ -1,6 +1,15 @@
 import React from "react";
 import { Project } from "../components";
-import { gpt3, growfy, nft, odash, ofood, todo, cryptopunks } from "../assets";
+import {
+  gpt3,
+  growfy,
+  nft,
+  odash,
+  ofood,
+  todo,
+  cryptopunks,
+  docs,
+} from "../assets";
 
 const projectList = [
   {
@@ -25,10 +34,10 @@ const projectList = [
     title: "Google Docs Clone",
     desciption:
       "A marketplace to trade and explore NFT's. The entire NFT ecosystem at the tip of your fingers.",
-    img: nft,
+    img: docs,
     code: "https://github.com/semako123/google-doc-clone",
     live: "https://google-doc-clone-smoky.vercel.app/",
-    stack: ["React", "JavaScript", "TailwindCSS", "Framer Motion"],
+    stack: ["React", "JavaScript", "TailwindCSS", "Socket IO", "Quill js"],
   },
   {
     title: "GROWFY",
