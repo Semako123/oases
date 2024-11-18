@@ -33,7 +33,7 @@ const projectList = [
   {
     title: "Google Docs Clone",
     desciption:
-      "A Google Docs clone with the following features: Real-time Collaboratio, Cursor Tracking, Document Management",
+      "A Google Docs clone with the following features: Real-time Collaboration, Cursor Tracking, Document Management",
     img: docs,
     code: "https://github.com/semako123/google-doc-clone",
     live: "https://google-doc-clone-smoky.vercel.app/",
